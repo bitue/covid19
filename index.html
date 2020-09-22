@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Tracker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+       .container{
+           margin-top: 100px;
+       }
+       #defaultData{
+           margin-top: 100px;
+       }
+       body{
+           background-image: url("img/newbg.jpg");
+           background-repeat: no-repeat;background-size: cover;
+       }
+        
+    </style>
+
+</head>
+<body>
+
+   <section>
+       <div class="container ">
+           <div class="row my-5" id="searchBar">
+               <div class="col-md-10 my-1" >
+                   <input class="form-control" id="searchCountry">
+               </div>
+               <div class="col-md-2 my-1">
+                   <button class="btn btn-primary" id="search">Search</button>
+               </div>
+           </div>
+           <div class="row">
+               <h1 class="text-center" id="myCountry"></h1>
+            <div class="col-md-4 my-1">
+                <input class="form-control" id="rc">
+            </div>
+            
+            <div class="col-md-4 my-1">
+             <input class="form-control" id="rd">
+            </div>
+            <div class="col-md-4 my-1">
+             <input class="form-control" id="rr">
+            </div>
+         </div>
+           <div class="row " id="defaultData">
+               <div class="col-md-12">
+                   <h4>World Covid  Causes Total :</h4>
+               </div>
+            </div>
+
+            <div class="row " >
+               <div class="col-md-4 my-1">
+                   <input class="form-control" id="wc">
+               </div>
+               
+               <div class="col-md-4 my-1" >
+                <input class="form-control" id="wdeath">
+               </div>
+               <div class="col-md-4 my-1">
+                <input class="form-control" id="wr">
+               </div>
+            </div>
+              
+           
+           <div class="row">
+            <div class="col-md-12">
+                <h4>Bangladesh Covid  Causes Total :</h4>
+            </div>
+            <div class="col-md-4 my-1">
+                <input class="form-control" id="bc">
+            </div>
+            <div class="col-md-4 my-1">
+             <input class="form-control" id="bd">
+            </div>
+            <div class="col-md-4 my-1">
+             <input class="form-control" id="br">
+            </div>
+            
+        </div>
+       </div>
+   </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script> 
+    <script src="main.js">
+
+    </script>
+</body>
+</html>
